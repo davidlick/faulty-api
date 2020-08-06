@@ -53,7 +53,7 @@ func (s *Server) getData(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Sleep for a random amount of time up to 5 seconds.
+	// Sleep for a random amount of time up to 500 milliseconds.
 	time.Sleep(time.Duration(rand.Intn(500)) * time.Millisecond)
 
 	w.Write(bytes)
