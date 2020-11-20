@@ -1,4 +1,4 @@
-# agentx-loadtest-lunchandlearn
+# faulty-api
 An API which simulates loaded responses to demonstrate load testing.
 
 ## Getting Started
